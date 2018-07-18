@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Prueba para agendar una cita","Agendar cita","SUCCESS","2018-07-17T01:11:18.233-05:00[America/Bogota]","0.0","201.53"
+"Prueba para agendar una cita","Agendar cita","SUCCESS","2018-07-17T23:44:35.717-05:00[America/Bogota]","0.0","21.08"
+"Prueba para agregar un producto al carrito e insertar la direccion para el domicilio","Agregaraticulo al carrito","SUCCESS","2018-07-17T23:44:56.799-05:00[America/Bogota]","0.0","49.53"

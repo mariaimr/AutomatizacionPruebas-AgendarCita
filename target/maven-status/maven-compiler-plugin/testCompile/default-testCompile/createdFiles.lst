@@ -1,0 +1,10 @@
+pageObjectModelHospital\CitaPage.class
+pageObjectModelMerqueo\DomicilioPage.class
+pageObjectModelMerqueo\MainPage.class
+pruebaWeb\PruebaMerqueo.class
+pageObjectModelHospital\MainPage.class
+util\Util.class
+pageObjectModelHospital\PacientePage.class
+pruebaWeb\prueba.class
+pageObjectModelHospital\DoctorPage.class
+pruebaWeb\RunTest.class

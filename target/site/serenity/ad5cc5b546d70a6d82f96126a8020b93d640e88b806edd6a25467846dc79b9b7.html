@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-07-2018 01:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-07-2018 00:23</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -130,7 +130,7 @@
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given Abrimos el navegador y vamos al sitio web de agregar doctores<br>When El usuario ingrese el nombre del doctor "&lt;nombreDoctor&gt;", los apellidos "&lt;apellidosDoctor&gt;", el telefono "&lt;telefono&gt;", el tipo de documento "&lt;tipoDocumento&gt;" y el numero de identidad<br>And El usuario presione el boton guardar<br>And vamos al sitio web de agregar pacientes<br>And El usuario ingrese el nombre del paciente "&lt;nombrePaciente&gt;", los apellidos "&lt;apellidosPaciente&gt;", el telefono "&lt;telefono2&gt;", el tipo de documento "&lt;tipoDocumento2&gt;", el numero de identidad y si la salud es prepagada "&lt;saludPrepagada&gt;"<br>And El usuario presione el boton guardar paciente<br>And vamos al sitio web de agendar citas<br>And El usuario ingrese el dia de la cita "&lt;diaCita&gt;", el documento de identidad del paciente, el documento de identidad del doctor y las observaciones "&lt;observaciones&gt;"<br>And El usuario presione el boton guardar cita<br>Then El usuario debe ver el mensaje "&lt;mensaje&gt;"</div>
+        <div class="scenario">Given Abrimos el navegador y vamos al sitio web de agregar doctores<br>And El usuario ingrese el nombre del doctor "&lt;nombreDoctor&gt;", los apellidos "&lt;apellidosDoctor&gt;", el telefono "&lt;telefono&gt;", el tipo de documento "&lt;tipoDocumento&gt;" y el numero de identidad<br>And El usuario presione el boton guardar<br>And vamos al sitio web de agregar pacientes<br>And El usuario ingrese el nombre del paciente "&lt;nombrePaciente&gt;", los apellidos "&lt;apellidosPaciente&gt;", el telefono "&lt;telefono2&gt;", el tipo de documento "&lt;tipoDocumento2&gt;", el numero de identidad y si la salud es prepagada "&lt;saludPrepagada&gt;"<br>And El usuario presione el boton guardar paciente<br>And vamos al sitio web de agendar citas<br>When El usuario ingrese el dia de la cita "&lt;diaCita&gt;", el documento de identidad del paciente, el documento de identidad del doctor y las observaciones "&lt;observaciones&gt;"<br>And El usuario presione el boton guardar cita<br>Then El usuario debe ver el mensaje "&lt;mensaje&gt;"</div>
 
     </div>
 
@@ -167,7 +167,7 @@
                         <td class="test-SUCCESS"><a href="#0">1</a></td>
                             <td class="test-SUCCESS"><a href="#0">Pedro</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#0">Martinez Rendon</a>
+                            <td class="test-SUCCESS"><a href="#0">Perez</a>
                             </td>
                             <td class="test-SUCCESS"><a href="#0">5558000</a>
                             </td>
@@ -202,7 +202,7 @@
                             </td>
                             <td class="test-SUCCESS"><a href="#1"></a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#1">Sepulveda</a>
+                            <td class="test-SUCCESS"><a href="#1">Quintero</a>
                             </td>
                             <td class="test-SUCCESS"><a href="#1">4567834</a>
                             </td>
@@ -251,14 +251,14 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Agendar cita #1: {nombreDoctor=Pedro, apellidosDoctor=Martinez Rendon, telefono=5558000, tipoDocumento=Cédula de ciudadanía, nombrePaciente=Carlos, apellidosPaciente=Martinez Rendon, telefono2=5558000, tipoDocumento2=Pasaportes, saludPrepagada=true, mensaje=Datos guardados correctamente., diaCita=07/05/2018, observaciones=Cita para revisión general}
+                                Agendar cita #1: {nombreDoctor=Pedro, apellidosDoctor=Perez, telefono=5558000, tipoDocumento=Cédula de ciudadanía, nombrePaciente=Carlos, apellidosPaciente=Martinez Rendon, telefono2=5558000, tipoDocumento2=Pasaportes, saludPrepagada=true, mensaje=Datos guardados correctamente., diaCita=07/05/2018, observaciones=Cita para revisión general}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">127.25s</span></td>
+                    <td width="100"><span class="top-level-step">10.75s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -279,7 +279,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">56.33s</span></td>
+                    <td width="100"><span class="nested-group-step">5.82s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -290,13 +290,13 @@
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                When El usuario ingrese el nombre del doctor "Pedro", los apellidos "Martinez Rendon", el telefono "5558000", el tipo de documento "Cédula de ciudadanía" y el numero de identidad
+                                And El usuario ingrese el nombre del doctor "Pedro", los apellidos "Perez", el telefono "5558000", el tipo de documento "Cédula de ciudadanía" y el numero de identidad
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.67s</span></td>
+                    <td width="100"><span class="nested-group-step">0.46s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -313,7 +313,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">4.15s</span></td>
+                    <td width="100"><span class="nested-group-step">0.36s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -330,7 +330,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">18.96s</span></td>
+                    <td width="100"><span class="nested-group-step">0.5s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -347,7 +347,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.69s</span></td>
+                    <td width="100"><span class="nested-group-step">0.59s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -364,7 +364,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">8.1s</span></td>
+                    <td width="100"><span class="nested-group-step">0.29s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -381,7 +381,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">30.92s</span></td>
+                    <td width="100"><span class="nested-group-step">1.29s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -392,13 +392,13 @@
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And El usuario ingrese el dia de la cita "07/05/2018", el documento de identidad del paciente, el documento de identidad del doctor y las observaciones "Cita para revisión general"
+                                When El usuario ingrese el dia de la cita "07/05/2018", el documento de identidad del paciente, el documento de identidad del doctor y las observaciones "Cita para revisión general"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.89s</span></td>
+                    <td width="100"><span class="nested-group-step">0.53s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -415,7 +415,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">5.86s</span></td>
+                    <td width="100"><span class="nested-group-step">0.2s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -432,7 +432,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.67s</span></td>
+                    <td width="100"><span class="nested-group-step">0.72s</span></td>
                 </tr>
 
                     </table>
@@ -452,14 +452,14 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Agendar cita #2: {nombreDoctor=, apellidosDoctor=Sepulveda, telefono=4567834, tipoDocumento=Cédula de ciudadanía, nombrePaciente=, apellidosPaciente=Sepulveda, telefono2=4567834, tipoDocumento2=Cédula de ciudadanía, saludPrepagada=false, mensaje=No se pudo guardar debido a:, diaCita=07/28/2018, observaciones=}
+                                Agendar cita #2: {nombreDoctor=, apellidosDoctor=Sepulveda, telefono=4567834, tipoDocumento=Cédula de ciudadanía, nombrePaciente=, apellidosPaciente=Quintero, telefono2=4567834, tipoDocumento2=Cédula de ciudadanía, saludPrepagada=false, mensaje=No se pudo guardar debido a:, diaCita=07/28/2018, observaciones=}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">73.25s</span></td>
+                    <td width="100"><span class="top-level-step">9.93s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -480,7 +480,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">26.73s</span></td>
+                    <td width="100"><span class="nested-group-step">5.35s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -491,13 +491,13 @@
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                When El usuario ingrese el nombre del doctor "", los apellidos "Sepulveda", el telefono "4567834", el tipo de documento "Cédula de ciudadanía" y el numero de identidad
+                                And El usuario ingrese el nombre del doctor "", los apellidos "Sepulveda", el telefono "4567834", el tipo de documento "Cédula de ciudadanía" y el numero de identidad
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.57s</span></td>
+                    <td width="100"><span class="nested-group-step">0.45s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -514,7 +514,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">5.91s</span></td>
+                    <td width="100"><span class="nested-group-step">0.27s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -531,7 +531,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">9.2s</span></td>
+                    <td width="100"><span class="nested-group-step">0.52s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -542,13 +542,13 @@
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And El usuario ingrese el nombre del paciente "", los apellidos "Sepulveda", el telefono "4567834", el tipo de documento "Cédula de ciudadanía", el numero de identidad y si la salud es prepagada "false"
+                                And El usuario ingrese el nombre del paciente "", los apellidos "Quintero", el telefono "4567834", el tipo de documento "Cédula de ciudadanía", el numero de identidad y si la salud es prepagada "false"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.55s</span></td>
+                    <td width="100"><span class="nested-group-step">0.43s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -565,7 +565,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">4.06s</span></td>
+                    <td width="100"><span class="nested-group-step">0.21s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -582,7 +582,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">19.89s</span></td>
+                    <td width="100"><span class="nested-group-step">1.4s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -593,13 +593,13 @@
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And El usuario ingrese el dia de la cita "07/28/2018", el documento de identidad del paciente, el documento de identidad del doctor y las observaciones ""
+                                When El usuario ingrese el dia de la cita "07/28/2018", el documento de identidad del paciente, el documento de identidad del doctor y las observaciones ""
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.58s</span></td>
+                    <td width="100"><span class="nested-group-step">0.47s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -616,7 +616,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">5.09s</span></td>
+                    <td width="100"><span class="nested-group-step">0.19s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -633,7 +633,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.67s</span></td>
+                    <td width="100"><span class="nested-group-step">0.64s</span></td>
                 </tr>
 
                     </table>
@@ -642,7 +642,7 @@
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>201.53s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>21.59s</em></span></td>
                 </tr>
 
             </table>

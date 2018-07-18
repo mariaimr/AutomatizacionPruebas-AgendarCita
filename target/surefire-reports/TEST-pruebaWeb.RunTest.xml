@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="pruebaWeb.RunTest" time="194.07" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="pruebaWeb.RunTest" time="70.357" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\USER\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1917895257802897239.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\USER\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6485086919958375940.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\USER\AppData\Roaming\npm;&quot;C:\Program Files\Git\bin;C:\Program Files\Git\cmd&quot;;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.5.4\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Users\USER\AppData\Local\Android\Sdk\platform-tools;C:\Users\USER\AppData\Local\Android\Sdk\tools;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\USER\AppData\Roaming\npm;&quot;C:\Program Files\Git\bin;C:\Program Files\Git\cmd&quot;;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.5.4\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,6 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Prueba para agendar una cita" name="AgendarCita" time="86.704"/>
-  <testcase classname="Prueba para agendar una cita" name="AgendarCita" time="107.366"/>
+  <testcase classname="Prueba para agendar una cita" name="AgendarCita" time="10.762"/>
+  <testcase classname="Prueba para agendar una cita" name="AgendarCita" time="10.612"/>
+  <testcase classname="Prueba para agregar un producto al carrito e insertar la direccion para el domicilio" name="AgregaraticuloAlCarrito" time="25.924"/>
+  <testcase classname="Prueba para agregar un producto al carrito e insertar la direccion para el domicilio" name="AgregaraticuloAlCarrito" time="23.059"/>
 </testsuite>

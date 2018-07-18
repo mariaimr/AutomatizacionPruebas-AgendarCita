@@ -5,10 +5,10 @@ import org.junit.Assert;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pageObjectModel.CitaPage;
-import pageObjectModel.DoctorPage;
-import pageObjectModel.MainPage;
-import pageObjectModel.PacientePage;
+import pageObjectModelHospital.CitaPage;
+import pageObjectModelHospital.DoctorPage;
+import pageObjectModelHospital.MainPage;
+import pageObjectModelHospital.PacientePage;
 import util.Util;
 
 public class prueba {
@@ -29,7 +29,7 @@ public class prueba {
 		
 	}
 
-	@When("^El usuario ingrese el nombre del doctor \"([^\"]*)\", los apellidos \"([^\"]*)\", el telefono \"([^\"]*)\", el tipo de documento \"([^\"]*)\" y el numero de identidad$")
+	@Given("^El usuario ingrese el nombre del doctor \"([^\"]*)\", los apellidos \"([^\"]*)\", el telefono \"([^\"]*)\", el tipo de documento \"([^\"]*)\" y el numero de identidad$")
 	public void el_usuario_ingrese_el_nombre_del_doctor_los_apellidos_el_telefono_el_tipo_de_documento_y_el_numero_de_identidad(String strNombre, String strApellidos, String strTelefono, String strTipoId) throws Exception {
 		 
 		String strNumId;
@@ -39,7 +39,7 @@ public class prueba {
 		
 	}
 
-	@When("^El usuario presione el boton guardar$")
+	@Given("^El usuario presione el boton guardar$")
 	public void el_usuario_presione_el_boton_guardar() throws Exception {
 		
 		doctorPage.clickGuardar();
@@ -48,14 +48,14 @@ public class prueba {
 	}
 	
 
-	@When("^vamos al sitio web de agregar pacientes$")
+	@Given("^vamos al sitio web de agregar pacientes$")
 	public void vamos_al_sitio_web_de_agregar_pacientes() throws Exception {
 		
 		pacientePage= mainPage.getPacientePage();
 		
 	}
 	
-	@When("^El usuario ingrese el nombre del paciente \"([^\"]*)\", los apellidos \"([^\"]*)\", el telefono \"([^\"]*)\", el tipo de documento \"([^\"]*)\", el numero de identidad y si la salud es prepagada \"([^\"]*)\"$")
+	@Given("^El usuario ingrese el nombre del paciente \"([^\"]*)\", los apellidos \"([^\"]*)\", el telefono \"([^\"]*)\", el tipo de documento \"([^\"]*)\", el numero de identidad y si la salud es prepagada \"([^\"]*)\"$")
 	public void el_usuario_ingrese_el_nombre_del_paciente_los_apellidos_el_telefono_el_tipo_de_documento_el_numero_de_identidad_y_si_la_salud_es_prepagada(String strNombre, String strApellidos, String strTelefono, String strTipoId, Boolean blnOpcion) throws Exception {
 		
 		String strNumId;
@@ -65,7 +65,7 @@ public class prueba {
 
 	}
 	
-	@When("^El usuario presione el boton guardar paciente$")
+	@Given("^El usuario presione el boton guardar paciente$")
 	public void el_usuario_presione_el_boton_guardar_paciente() throws Exception {
 		
 		pacientePage.clickGuardar();
@@ -73,7 +73,7 @@ public class prueba {
 
 	}
 	
-	@When("^vamos al sitio web de agendar citas$")
+	@Given("^vamos al sitio web de agendar citas$")
 	public void vamos_al_sitio_web_de_agendar_citas() throws Exception {
 		
 		citaPage = mainPage.getAgendarCitaPage();
